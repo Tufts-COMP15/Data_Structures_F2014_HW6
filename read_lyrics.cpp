@@ -18,7 +18,7 @@ using namespace std;
 //   returns: nothing
 //   does: calls a function each time a word is found
 //
-void read_lyrics(char * filename, bool show_progress)
+void read_lyrics(const char * filename, bool show_progress)
 {
         ifstream in(filename);			// creates an input stream
         int song_count = 0;			// for progress indicator
